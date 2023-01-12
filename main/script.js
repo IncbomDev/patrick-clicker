@@ -66,6 +66,11 @@ var weightMultiplier = 1;
 var clickWeight = baseWeightGain * weightMultiplier;
 
 var passiveGain = 0;
+// Achivements:
+
+if(weight==1000000){
+  alert("Achivement get! \n Extremist");
+  
 
 setInterval(function(){
   clickWeight = baseWeightGain * weightMultiplier;
